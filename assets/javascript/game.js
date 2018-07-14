@@ -40,7 +40,7 @@ var intervalId;
 //Timer
 function timer(){
 
-    var timerStart = 5;
+    var timerStart = 6;
     
    
     
