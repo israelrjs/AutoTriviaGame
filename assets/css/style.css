@@ -1,0 +1,146 @@
+.jumbotron {
+    background: rgb(150, 146, 146); /* This is for ie8 and below */
+    background: rgba(150, 146, 146, 0.842);
+    margin-top: 50px;
+    padding-top: 10px;
+ }
+ 
+#Start{
+    width: 200px;
+    margin-left: 600px;
+}
+.thisChoice{
+    font-size: 24px;
+    margin-top: 20px;
+}
+#Question{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#Answers{
+    margin-top: 20px;
+} 
+
+    
+      
+      
+    #Header {
+        background-color:transparent;
+        float: right;
+        position: absolute;
+        margin-left: 1250px;
+        margin-right: 0px;
+        width:100px;
+        height:100px;
+        border-radius:50px;
+        box-shadow: 0 0 8px yellow, inset 0 0 8px yellow;
+        -webkit-animation: pulse 2s linear 1s infinite;
+      }
+    #Timer {
+        display:block;
+        text-align: center;
+        line-height: 100px;
+        font-family:sans-serif;
+        font-weight:50;
+        font-size: 10px;
+        color: yellow;
+        text-shadow: 0 0 4px yellow;
+      }
+    h1{
+        margin-right: 18px;
+    }
+
+      
+  @-webkit-keyframes pulse {
+    0% { box-shadow:0 0 8px yellow, inset 0 0 8px yellow; }
+    50% { box-shadow:0 0 16px yellow, inset 0 0 14px yellow; }
+    100% { box-shadow:0 0 8px yellow, inset 0 0 8px yellow; }
+  }
+
+
+ #container {
+    width: 800px;
+    margin: auto;
+  }
+  
+  /*Neon*/
+  p {
+    text-align: center;
+    font-size: 7em;
+    margin: 20px 0 20px 0;
+  }
+  
+  a {
+    text-decoration: none;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  
+p:nth-child(1) a {
+    color: #FFDD1B;
+    font-family: Pacifico;
+  }
+  
+p:nth-child(1) a {
+    -webkit-animation: neon3 1.5s ease-in-out infinite alternate;
+    -moz-animation: neon3 1.5s ease-in-out infinite alternate;
+    animation: neon3 1.5s ease-in-out infinite alternate;
+  }
+  
+  
+  p a:hover {
+    color: #ffffff;
+  }
+  /*glow for webkit*/
+  
+  
+  
+  @-webkit-keyframes neon3 {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FFDD1B, 0 0 70px #FFDD1B, 0 0 80px #FFDD1B, 0 0 100px #FFDD1B, 0 0 150px #FFDD1B;
+    }
+    to {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FFDD1B, 0 0 35px #FFDD1B, 0 0 40px #FFDD1B, 0 0 50px #FFDD1B, 0 0 75px #FFDD1B;
+    }
+  }
+
+  
+  /*glow for mozilla*/
+  
+  
+  
+  @-moz-keyframes neon3 {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FFDD1B, 0 0 70px #FFDD1B, 0 0 80px #FFDD1B, 0 0 100px #FFDD1B, 0 0 150px #FFDD1B;
+    }
+    to {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FFDD1B, 0 0 35px #FFDD1B, 0 0 40px #FFDD1B, 0 0 50px #FFDD1B, 0 0 75px #FFDD1B;
+    }
+  }
+  
+ 
+  /*glow*/
+  
+  @keyframes neon3 {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FFDD1B, 0 0 70px #FFDD1B, 0 0 80px #FFDD1B, 0 0 100px #FFDD1B, 0 0 150px #FFDD1B;
+    }
+    to {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FFDD1B, 0 0 35px #FFDD1B, 0 0 40px #FFDD1B, 0 0 50px #FFDD1B, 0 0 75px #FFDD1B;
+    }
+  }
+  
+  
+  /*REEEEEEEEEEESPONSIVE*/
+  
+  @media (max-width: 650px) {
+    #container {
+      width: 100%;
+    }
+    p {
+      font-size: 3.5em;
+    }
+  }
+  

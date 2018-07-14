@@ -1,1 +1,1 @@
-# AutoTriviaGame
+# TriviaGame
